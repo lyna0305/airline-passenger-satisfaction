@@ -18,7 +18,7 @@ The aim of this project is to critically evaluate two algorithm models for a bin
 - Overfitting concerns with SVM due to its complex non-linear kernel decision boundary.
 - Future research could explore regularisation techniques or reduce SVM model complexity to mitigate overfitting.
 
-## REpository Contents
+## Repository Contents
 - `Entire code.ipynb`: Jupyter Notebook containing the entire code for the project.
 - `MLP model.ipynb`: Jupyter Notebook for the MLP model.
 - `SVM model.ipynb`: Jupyter Notebook for the SVM model.
