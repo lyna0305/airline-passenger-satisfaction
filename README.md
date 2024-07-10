@@ -1,14 +1,12 @@
 # Predicting Airline Passenger Satisfaction using Multilayer Perptron (MLP) and  Support Vector Machine (SVM)
 
-This repository contains a project submitted for the MSc Data Science 'Neural Computing' module at City, University of London.
-
 ## Project Overview
 
-This project critically evaluates, compares, and contrasts two algorithm models: the Support Vector Machine (SVM) and the Multilayer Perceptron (MLP), for a binary classification task predicting the satisfaction of airline passengers. The best-performing models are selected through hyperparameter tuning via grid search with 10-fold cross-validation. The evaluation involves comparing various metrics. 
+This project aims to evaluate, compare, and contrast two machine learning models: Support Vector Machine (SVM) and Multilayer Perceptron (MLP), for predicting airline passenger satisfaction. We focus on a binary classification task where we predict whether passengers are 'Satisfied' or 'Neutral or dissatisfied' based on various attributes. The best-performing models are identified through hyperparameter tuning using grid search with 10-fold cross-validation. Our evaluation involves comparing several performance metrics to determine the strengths and weaknesses of each model.
 
 ## Objectives
 
-The aim of this project is to critically evaluate two algorithm models for a binary classification task of predicting the satisfaction of airline passengers. The models considered are the Support Vector Machine (SVM) and the Multilayer Perceptron (MLP). The task involves predicting whether a person is classified as ‘Satisfied’ or ‘Neutral or dissatisfied’ based on a set of attributes. Through this analysis, we assess the effectiveness of MLP and SVM models in predicting passenger satisfaction within the airline industry. By identifying their strengths and weaknesses, we provide insights to guide airline management decisions, ultimately enhancing management practices.
+The aim of this project is to critically evaluate two algorithm models, the SVM and the MLP, for a binary classification task of predicting the satisfaction of airline passengers. The task involves predicting whether a person is classified as ‘Satisfied’ or ‘Neutral or dissatisfied’ based on a set of attributes. Through this analysis, we assess the effectiveness of MLP and SVM models in predicting passenger satisfaction within the airline industry. By identifying their strengths and weaknesses, we provide insights to guide airline management decisions, ultimately enhancing management practices.
 
 ## Key Findings
 
