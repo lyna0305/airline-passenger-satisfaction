@@ -1,20 +1,14 @@
-# Predicting Airline Passenger Satisfaction using Multilayer Perptron (MLP) and  Support Vector Machine (SVM)
+# Predicting Airline Passenger Satisfaction
 
 ## Project Overview
 
-This project aims to evaluate, compare, and contrast two machine learning models: Support Vector Machine (SVM) and Multilayer Perceptron (MLP), for predicting airline passenger satisfaction. We focus on a binary classification task where we predict whether passengers are 'Satisfied' or 'Neutral or dissatisfied' based on various attributes. The best-performing models are identified through hyperparameter tuning using grid search with 10-fold cross-validation. Our evaluation involves comparing several performance metrics to determine the strengths and weaknesses of each model.
+This project evaluates and compares two machine learning models, Support Vector Machine (SVM) and Multilayer Perceptron (MLP), for predicting airline passenger satisfaction. The task involves binary classification to determine whether passengers are classified as 'Satisfied' or 'Neutral or dissatisfied' based on various attributes. Through detailed analysis, this project not only assesses the effectiveness of these models but also extracts actionable insights from the data to guide airline management in enhancing passenger satisfaction.
 
 ## Objectives
-
-The aim of this project is to critically evaluate two algorithm models, the SVM and the MLP, for a binary classification task of predicting the satisfaction of airline passengers. The task involves predicting whether a person is classified as ‘Satisfied’ or ‘Neutral or dissatisfied’ based on a set of attributes. Through this analysis, we assess the effectiveness of MLP and SVM models in predicting passenger satisfaction within the airline industry. By identifying their strengths and weaknesses, we provide insights to guide airline management decisions, ultimately enhancing management practices.
-
-## Key Findings
-
-- SVM generally outperformed MLP in various metrics but showed signs of overfitting with higher train accuracy compared to test accuracy.
-- MLP demonstrated better generalisation capabilities and faster testing time efficiency despite slightly lower performance metrics.
-- The project emphasized the importance of balancing model complexity with performance metrics.
-- Overfitting concerns with SVM due to its complex non-linear kernel decision boundary.
-- Future research could explore regularisation techniques or reduce SVM model complexity to mitigate overfitting.
+- Critically evaluate the performance of SVM and MLP models for predicting airline passenger satisfaction.
+- Compare key performance metrics, such as accuracy, precision, recall, and F1-score, to identify the strengths and limitations of each model.
+- Provide insights into factors influencing passenger satisfaction, offering actionable recommendations for improving customer experience.
+- Address overfitting and generalisation concerns through model design and hyperparameter tuning.
 
 ## Repository Contents
 - `Entire code.ipynb`: Jupyter Notebook containing the entire code for the project.
@@ -31,4 +25,6 @@ Please download the dataset from [Kaggle](https://www.kaggle.com/datasets/teejma
 
 ## Conclusion
 
-This project demonstrates the application of SVM and MLP models for predicting airline passenger satisfaction. The findings provide insights into their strengths and weaknesses, offering guidance for airline management decisions to enhance service quality and passenger satisfaction.
+This project highlights the application of machine learning models to predict airline passenger satisfaction, offering actionable insights for service improvement. While SVM exhibited strong accuracy, its overfitting tendency suggests opportunities for regularisation. Meanwhile, MLP balanced performance and efficiency, providing a robust alternative for generalised predictions.
+
+By uncovering factors influencing passenger satisfaction, such as service quality and punctuality, this analysis equips airline management with data-driven strategies to enhance customer experience and operational excellence. For a complete overview, please refer to `Paper.pdf` included in this repository.
